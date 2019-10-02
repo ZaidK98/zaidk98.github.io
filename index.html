@@ -1,0 +1,74 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- the basic layout for HTML5 file -->
+<!-- 'lang' is the language attribute that defines what language we are using, with 'en' being english. It is required to have it included. -->
+<!-- the metadata refers to data about the html document being used for a website and is defined in the head tag. It's best to have it in the document. -->
+<!-- as with css, we use link to call an external css file -->
+<!-- the 'header' tag in the body is used for titles and logos at the top of the page -->
+<!-- the 'nav' tag, which appears at the top, is used for providing links to various other webpages -->
+<!-- the 'section' tag is where the main content of the website is placed -->
+<!-- the 'aside' tag provides content similar to or apart from the content in the section tag and is placed using css -->
+<!-- the 'footer' tag is for providing company info, copyright, etc., which is at the bottom of the website -->
+<!-- the 'article' tag consists of self-contained content, which includes its own personal header, footer, paragraphs, etc. It's useful for blogs, news articles, forum posts, etc. -->
+<!-- the 'hgroup' tag is used for containing several different titles in the header -->
+<!-- labelling each main element in the body using ids makes it easier to style in the external css stylesheet -->
+<html lang='en'>
+<head>
+	<meta charset='utf-8'/>
+	<title>This is a website</title>
+	<link rel='stylesheet' href='mainnns.css'/>
+</head>
+
+<body>
+<div id='template'>
+<header id='tophdr'>
+	<h1>Welcome to this website!</h1>
+</header>
+
+<nav id='topnv'>
+	<ul>
+		<li>Home</li>
+		<li>Forward</li>
+		<li>Back</li>
+	</ul>
+</nav>
+<div id='newdiv'>
+<section id='mainstuff'>
+	<article>
+		<header>
+			<hgroup>
+				<h1>The mystery article</h1>
+				<h2>The mystery subtitle for the article</h2>
+			</hgroup>
+		</header>
+		<p>This is the best article evah!</p>
+		<footer>
+			<p>- written by MysteriousStranger69</p>
+		</footer>
+	</article>
+	
+	<article>
+		<header>
+			<hgroup>
+				<h1>The mystery article 2</h1>
+				<h2>The mystery subtitle for the article</h2>
+			</hgroup>
+		</header>
+		<p>This is the 2nd best article evah!</p>
+		<footer>
+			<p>- written by MysteriousStranger70</p>
+		</footer>
+	</article>
+</section>
+
+<aside id='sidekick'>
+	<h4>News!</h4>
+	Trump cancelled his meeting with NK
+</aside>
+</div>
+<footer id='foot'>
+	Copyright  something sometime
+</footer>
+</div>
+</body>
+</html>
