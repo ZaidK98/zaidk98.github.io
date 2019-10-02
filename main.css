@@ -1,6 +1,3 @@
-/* a flexible box model */
-/* the old model used box but the new model uses flex and doesn't require to use the webkit extension */
-/* also, be careful with flex-flow because it can affect how the website is displayed */
 
 *{
 	margin: 0px;
